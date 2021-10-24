@@ -15,8 +15,9 @@
   TO create readmes
 
   ### Installation
-  1. npm -v
-  2. node index.js
+  1. Install NPM
+  2. Install inquirer through npm
+  3. Input node index.js into your favorite CLI
 
   ### License
   Licensed under the ![Apache License 2.0](https://opensource.org/licenses/Apache-2.0
