@@ -28,7 +28,7 @@ function renderLicenseLink(license) {
     case "Mozilla Public License 2.0":
       return `![Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)`;
     case "Apache License 2.0":
-      return `![Apache License 2.0](https://opensource.org/licenses/Apache-2.0`;
+      return `![Apache License 2.0](https://opensource.org/licenses/Apache-2.0`);
     case "MIT License":
       return `![MIT License](https://opensource.org/licenses/MIT)`;
     case "None":
