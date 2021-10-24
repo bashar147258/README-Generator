@@ -1,15 +1,15 @@
 # Readme Generator
   ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
   ## Contents
-  1.[Github](#Github)
-  2.[Email](#Email)
-  3.[Title](#Title)
-  4.[Description](#Description)
-  5.[Usage](#Usage)
-  6.[Installation](#Installation)
-  7.[Licenses](#Licenses)
-  8.[Test](#Test)
-  9.[Contributions](#Contributions)
+  1.[Github](#Github)/n
+  2.[Email](#Email)/n
+  3.[Title](#Title)/n
+  4.[Description](#Description)/n
+  5.[Usage](#Usage)/n
+  6.[Installation](#Installation)/n
+  7.[Licenses](#Licenses)/n
+  8.[Test](#Test)/n
+  9.[Contributions](#Contributions)/n
 
   ### Description
  To automate the generation of README's to satisfactory degree
