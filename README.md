@@ -23,7 +23,7 @@
   Licensed under the ![Apache License 2.0](https://opensource.org/licenses/Apache-2.0
 
   ### Test
-  undefined
+  ![Sample run](./utils/terrible_skills.gif)
 
   ### Contribution
   Feel free to fork and tweak to your heart's content
