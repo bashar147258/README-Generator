@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+
 const inquirer = require('inquirer');
 const fs = require('fs');
-//const path = require('path');
+
 const generateMarkdown = require("./utils/generateMarkdown");
 console.log("To begin generating your project's readme. Please follow the prompts")
-// TODO: Create an array of questions for user input
+
 const questions = [
     {
         type: "input",
@@ -34,7 +34,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Enter license used...",
-        choices:["GNU GPLv3", "Mozilla Public License 2.0", "Apache License 2.0", "MIT License", "BSD", "None" ]
+        choices:["GNU Public License v3.0", "Mozilla Public License 2.0", "Apache License 2.0", "MIT License", "BSD", "None" ]
         
     },
     {
@@ -63,7 +63,7 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
+
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if (err) {
@@ -72,12 +72,12 @@ function writeToFile(fileName, data) {
         console.log("README Generated sucessfully")
     }); 
 }
-// TODO: Create a function to initialize app
+
 function init() {}
     inquirer.prompt(questions).then(answers => {
         const response = generateMarkdown(answers);
 
         writeToFile("README.md",response);
     })
-// Function call to initialize app
+
 init();
