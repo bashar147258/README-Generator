@@ -20,7 +20,7 @@
   3. Input node index.js into your favorite CLI
 
   ### License
-  Licensed under the ![Apache License 2.0](https://opensource.org/licenses/Apache-2.0
+  Licensed under the ![Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
 
   ### Test
   ![Sample run](./utils/terrible_skills.gif)
